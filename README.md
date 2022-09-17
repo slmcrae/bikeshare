@@ -1,6 +1,7 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
+
 Bikeshare.py created **1st September 2022**. 
 
 README.md created **17th September 2022**.
@@ -8,6 +9,7 @@ README.md created **17th September 2022**.
 ### Bikeshare Data Project
 
 ### Description
+
 Interactive data analysis program using bikeshare data from Washington, New York,
 and Chicago. 
 
@@ -18,6 +20,7 @@ The user must select 1 of the 3 cities but can select all months and/or all days
 The user also has the option of scrolling through raw data, 5 lines at a time.
 
 #### _Statistical_ _Output_:
+
 - Favorite times for bike rides
   * Most popular month for bike rides
   * Most popular day of the week for bike rides
@@ -37,16 +40,19 @@ The user also has the option of scrolling through raw data, 5 lines at a time.
   * Most recent birth year (youngest user(s))
 
 ### Files used
+
 - bikeshare.py
 - washington.csv
 - chicago.csv
 - new_york_city.csv
 
 ### Software requirements
+
 *	Python 3
 *	Git Bash or similar terminal application
 
-### Setup Procedure
+### Instructions
+
 1.	Ensure that bikeshare.py and all .csv data files are in the same folder.
 2.	Open git bash (or other) terminal window.
 3.	Navigate using cd commands to the folder containing bikeshare.py.
@@ -55,6 +61,7 @@ The user also has the option of scrolling through raw data, 5 lines at a time.
 6.	Enjoy output.
 
 ### Credits
+
 Bikeshare data analysis program based on a template used in "*Programming for Data Science with Python*" by Udacity 
 from udacity.com.
 
