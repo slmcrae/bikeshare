@@ -42,5 +42,5 @@ _Statistical _Output_:
 - new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+_Inspired_ _by_ _Udacity's_ **pdsnd_github** repository: [Link here](https://github.com/udacity/pdsnd_github.git)
 
