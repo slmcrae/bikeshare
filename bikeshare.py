@@ -249,9 +249,16 @@ def user_stats(df):
         mode_year = int(df['Birth Year'].mode()[0])
         max_year = int(df['Birth Year'].max())
         min_year = int(df['Birth Year'].min())
+        # age of users calculated from 2017 as this is when the data was collected.
+        max_age = 2017 - min_year
+        min_age = 2017 - max_year
+        mode_age = 2017 - mode_year
         print("\nThe most frequent birth year is: {}".format(mode_year))
         print("The most recent birth year is: {}".format(max_year))
         print("The earliest birth year is: {}".format(min_year))
+        print("\nThis data was collected in 2017.")
+        print("Therefore, in 2017, the most frequent age of users was {},".format(mode_age))
+        print("the youngest user was {}, and the oldest was {}!!.".format(min_age,max_age))
     except:
         print("There is no birth year data for this city.")
     
@@ -259,6 +266,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
 
 
         
