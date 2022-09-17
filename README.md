@@ -49,10 +49,10 @@ The user also has the option of scrolling through raw data, 5 lines at a time.
 ### Setup Procedure
 1.	Ensure that bikeshare.py and all .csv data files are in the same folder.
 2.	Open git bash (or other) terminal window.
-3.	Navigate using cd command to the folder containing bikeshare.py.
+3.	Navigate using cd commands to the folder containing bikeshare.py.
 4.	Enter in command line: "python bikeshare.py"
 5.	Answer prompts as required.
-6.	Enjoy output
+6.	Enjoy output.
 
 ### Credits
 Bikeshare data analysis program based on a template used in "*Programming for Data Science with Python*" by Udacity 
