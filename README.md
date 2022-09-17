@@ -55,5 +55,8 @@ The user also has the option of scrolling through raw data, 5 lines at a time.
 6.	Enjoy output
 
 ### Credits
-_Inspired_ _by_ _Udacity's_ **pdsnd_github** repository: [Link here](https://github.com/udacity/pdsnd_github.git)
+Bikeshare data analysis program based on a template used in "*Programming for Data Science with Python*" by Udacity 
+from udacity.com.
+
+This repository is based on Udacity's **pdsnd_github** repository: [Link here](https://github.com/udacity/pdsnd_github.git)
 
