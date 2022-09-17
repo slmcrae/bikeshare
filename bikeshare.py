@@ -195,14 +195,11 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # display total travel time
-    total_of_all_trips = df['Trip Duration'].sum()
-    total_days = int(total_of_all_trips/(60*24))
-    total_hours = int(total_of_all_trips/60)
-    total_mins = int(total_of_all_trips%60)
+     # display total travel time
+    total_all_trips = df['Trip Duration'].sum()
+    hours_in_mil = round(total_all_trips/1000000,3)
    
-    print("The total time spent riding bikes was {} days {} hours and {} minutes.".format(total_days, 
-         total_hours, total_mins))
+    print("The total time spent riding bikes was {} million hours.".format(hours_in_mil))
         
     # display mean travel time
     average_trip = df['Trip Duration'].mean()
