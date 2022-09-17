@@ -68,33 +68,34 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
+    print('We have data from 3 cities: Washington, Chicago and New York')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:         
-        city = input("Please input a city:  ").lower()
+        city = input("\nWhich city's data would you like to explore?\nEnter city:  ").lower()
         if city not in cities:
-            print("That is not a valid city. Please select one of the following:\n", list(CITY_DATA.keys()))
+            print("\nThat is not a valid city. Please select one of the following:\n", list(CITY_DATA.keys()))
         else:
             break
 
     # get user input for month (all, january, february, ... , june)
     while True:
-        month = input("please enter a month from January to June or enter 'all': ").lower()
+        month = input("\nplease enter a month from January to June or enter 'all': ").lower()
         if month == 'all':
             print("You have selected all months")
             break
         elif month not in months:
-            print("That was an invalid entry. Please try again.")
+            print("\nThat was an invalid entry. Please try again.")
         else:
             break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("Please enter a day of the week or 'all':  ").lower()
+        day = input("\nPlease enter a day of the week or 'all':  ").lower()
         if day == 'all':
             print("You have selected all days of the week")
             break
         elif day not in days:
-            print("That was not a day of the week.\nPlease check your spelling and re-enter.")
+            print("\nThat was not a day of the week.\nPlease check your spelling and re-enter.\n")
         else:
             break
     
