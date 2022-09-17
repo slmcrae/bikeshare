@@ -17,7 +17,7 @@ city, month, and day.
 The user must select 1 of the 3 cities but can select all months and/or all days.
 The user also has the option of scrolling through raw data, 5 lines at a time.
 
-_Statistical_ _Output_:
+#### _Statistical_ _Output_:
 - Favorite times for bike rides
   * Most popular month for bike rides
   * Most popular day of the week for bike rides
