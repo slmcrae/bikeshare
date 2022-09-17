@@ -18,23 +18,23 @@ The user must select 1 of the 3 cities but can select all months and/or all days
 The user also has the option of scrolling through raw data, 5 lines at a time.
 
 _Statistical_ _Output_:
-- [X] Favorite times for bike rides
-	  * Most popular month for bike rides
-	  * Most popular day of the week for bike rides
-	  * Most popular hour of the day for bike rides
-- [X] Favorite stations and routes
-	  * Most popular start station
-	  * Most popular end station
-	  * Most popular route
-- [X] Trip duration statistics
-	  * Total trip time for all trips
-	  * Average trip time
-- [X] User statistics
-	  * Count of types of users
-	  * Count of male and female users
-	  * Most common birth year
-	  * Earliest birth year (oldest user(s))
-	  * Most recent birth year (youngest user(s))
+- Favorite times for bike rides
+  * Most popular month for bike rides
+  * Most popular day of the week for bike rides
+  * Most popular hour of the day for bike rides
+- Favorite stations and routes
+  * Most popular start station
+  * Most popular end station
+  * Most popular route
+- Trip duration statistics
+  * Total trip time for all trips
+  * Average trip time
+- User statistics
+  * Count of types of users
+  * Count of male and female users
+  * Most common birth year
+  * Earliest birth year (oldest user(s))
+  * Most recent birth year (youngest user(s))
 
 ### Files used
 - bikeshare.py
