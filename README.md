@@ -1,5 +1,5 @@
-Bikeshare.py created: **_1st_** **_September_** **_2022_**. 
-README.md created: **_17th_** **_September_** **_2022_**. 
+_Bikeshare.py_ _created:_ _1st_ _September_ _2022_.<br>
+_README.md_ _created:_ _17th_ _September_ _2022_.<br>
 
 ### Bikeshare Data Project
 
