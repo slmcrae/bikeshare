@@ -60,5 +60,7 @@ The user also has the option of scrolling through raw data, 5 lines at a time.
 Bikeshare data analysis program based on a template used in "*Programming for Data Science with Python*" by Udacity 
 from udacity.com.
 
-This repository is based on Udacity's **pdsnd_github** repository: [Link here](https://github.com/udacity/pdsnd_github.git)
+This repository is based on Udacity's [pdsnd github repository](https://github.com/udacity/pdsnd_github.git).
+
+slmcrae.github.io website photo from [Wollongong City Council website](https://www.wollongong.nsw.gov.au/whats-on/news-and-alerts/news/news/2021/april-2021/a-push-for-bike-parking-improvements)
 
