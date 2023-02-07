@@ -62,5 +62,5 @@ from udacity.com.
 
 This repository is based on Udacity's [pdsnd github repository](https://github.com/udacity/pdsnd_github.git).
 
-slmcrae.github.io website photo from [Wollongong City Council website](https://www.wollongong.nsw.gov.au/whats-on/news-and-alerts/news/news/2021/april-2021/a-push-for-bike-parking-improvements)
+slmcrae.github.io website photo from [Wollongong City Council website](https://www.wollongong.nsw.gov.au/whats-on/news-and-alerts/news/news/2021/april-2021/a-push-for-bike-parking-improvements).
 
